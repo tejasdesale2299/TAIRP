@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e2e2;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #000000;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(214, 209, 209);
+    border-radius: 5px;
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.recipe {
+    border: 5px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
