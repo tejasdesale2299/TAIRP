@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cacaca;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons {
+    margin-bottom: 10px;
+}
+
+.filter-buttons button {
+    background-color: #9d0505;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 1000px;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.filter-buttons:hover{
+    background-color: grey;
+}
